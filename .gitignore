@@ -2,7 +2,7 @@
 
 # dependencies
 /node_modules
-
+/src/model/network.js
 
 # production
 /build

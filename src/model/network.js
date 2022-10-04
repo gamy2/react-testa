@@ -2,6 +2,9 @@ import axios from 'axios';
 const DBconnection=axios.create({
     //obj has an data about connection 
     baseURL:'https://fakestoreapi.com/',
+    params:{
+        
+    }
   
 })
 DBconnection.interceptors.request.use((con)=>{

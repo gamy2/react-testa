@@ -13,6 +13,7 @@ export default function Product() {
    <PagesHeader />
    <h3>{product.title}</h3>
    <h2>{product.price}$</h2>
+   <h2>{product.rating.rate}rating</h2>
    <img src={product.image}/>
    </>
   )

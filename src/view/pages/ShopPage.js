@@ -21,6 +21,7 @@ if(storeProduts.length==0)
 }
   },[])
   return (
+    
    <><PagesHeader />
   {loader==true? <div className='d-flex justify-content-center'>
    <div className="spinner-border" role="status">
@@ -35,7 +36,8 @@ if(storeProduts.length==0)
     <h1 key={index}>{product.title}</h1></Link>
   })
 }
-<button onClick={()=>console.log(loader)}>StoreProduts</button>
+
+<button onClick={()=>console.log(loader)}style={{backgroundColor:"red"}}>StoreProduts</button>
    </>
   )
 }
